@@ -1,0 +1,702 @@
+body{
+  
+  height: 2800px;
+  width: 1000px;
+  /* display:flex; */
+  background-image: linear-gradient(rgb(148, 162, 213), rgb(124, 158, 119))
+}
+h2{
+    position:fixed;
+    top:300px;
+    left:300px;
+    font-weight: lighter;
+    font-size:small;
+    z-index: -1;
+  }
+
+.container{
+    width:300px;
+    height:300px;
+    position:absolute;
+    left:550px;
+    top:400px;
+    /* background:white; */
+}
+.b0{
+    position:absolute;
+    left:300px;
+    top:200px;
+  margin:0px;
+  width:50px;
+  height:40px;
+  border-radius: 1px;
+  background:rgb(255, 255, 255);
+  color:rgb(121, 121, 121);
+  border: 0.3px solid #000;
+  border-radius: 50px;
+  transition:all 2s ease 0.5s;
+  cursor:pointer;
+  z-index: 2;
+
+}
+.b0:hover {
+    transform: rotateY(170deg);
+  background:rgb(56, 99, 228);
+  transition: all 0.3s;  
+}
+.b1{
+    position:relative;
+    left:200px;
+    bottom:100px;
+    background:rgb(255, 131, 131);
+  color:rgb(0, 0, 0);
+  border: 0.3px solid #000;
+  border-radius: 1px;
+  transition:all 2s ease 0.5s;
+  cursor:pointer;
+}
+.b1:hover{
+  background:rgb(56, 99, 228);
+  transition: all 0.3s;   
+}
+.b2{
+    position:absolute;
+    right:-300px;
+    top:90px;
+    background:rgb(52, 255, 177);
+  color:rgb(0, 0, 0);
+  border: 0.3px solid #000;
+  border-radius: 1px;
+  transition:all 2s ease 0.5s;
+  cursor:pointer;
+}
+.b2:hover{
+  background:rgb(56, 99, 228);
+  transition: all 0.3s;   
+}
+
+.b3{
+    position:absolute;
+    right:500px;
+    top:0px;
+    background:rgb(0, 195, 255);
+  color:rgb(0, 0, 0);
+  border: 0.3px solid #000;
+  border-radius: 1px;
+  transition:all 2s ease 0.5s;
+  cursor:pointer;
+}
+.b3:hover{
+  background:rgb(56, 99, 228);
+  transition: all 0.3s;   
+}
+
+.container2{
+    width:200px;
+    height: 30px;
+    position:absolute;
+    right: 600px;
+    top:150px;
+    /* background: #000; */
+}
+
+/* reference:https://www.youtube.com/watch?v=so5gizA6hNo */
+@keyframes floating{
+    50%{
+        transform: translateY(-10px);
+    }
+}
+.bmao{
+    position:absolute;
+    left:-130px;
+    top:30px;
+    width:70px;
+    background:rgb(172, 220, 201);
+  color:rgb(0, 0, 0);
+  border: 0.3px solid rgb(0, 0, 0);
+  border-radius: 1px;
+  transition:all 2s ease 0.5s;
+  font-family: 'Courier New';
+  transform: rotate(-15deg);
+  
+}
+.bp{
+    position:absolute;
+    top:20px;
+    left:0px;
+    background:black;
+    color:white;
+    font-family:monospace;
+font-size:10px;
+animation:floating 2.5s infinite ease-in-out;
+}
+.br{
+    position:absolute;
+    top:8px;
+    left:30px;
+    background:black;
+    color:white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    animation:floating 2s infinite ease-in-out;
+
+}
+.bo{
+    position:absolute;
+    top:0px;
+    left:50px;
+    background:black;
+    color:white;
+    font-family: fantasy;
+    animation:floating 4.5s infinite ease-in-out;
+
+}
+.bj{
+    position:absolute;
+    top:0px;
+    left:76px;
+    background:black;
+    color:white;
+    font-family: fantasy;
+}
+.be{
+    position:absolute;
+    top:0px;
+    left:99px;
+    background:black;
+    color:white;
+    animation:floating 3s infinite ease-in-out;
+
+}
+.bc{
+    position:absolute;
+    top:0px;
+    left:120px;
+    background:black;
+    color:white;
+    animation:floating 4s infinite ease-in-out;
+
+}
+.bt{
+    position:absolute;
+    top:0px;
+    left:150px;
+    background:white;
+    color:black;
+    font-style: oblique;
+    animation:floating 1s infinite ease-in-out;
+}
+.bs{
+    position:absolute;
+    top:0px;
+    left:170px;
+    background:white;
+    color:black;
+    font-style: oblique;
+}
+/* .find{
+    width:90%;
+    position:relative;
+   left:270px;
+   top:100px;
+}
+.the{
+    width:100%;
+    position:relative;
+    left:100px;
+    margin:100px;
+} */
+
+/* old project1 contents */
+/* .unit{
+    width:100%;
+    position:relative;
+    left:230px;
+    top:-190px;
+    }
+
+.u{
+    width:16%;
+    position:relative;
+    left:290px;
+    top:-307px;
+    transition: 2s;
+}
+.u:hover{
+    transform: rotateY(180deg);
+    opacity:0.2;
+}
+.n{
+    width:7%;
+    position:relative;
+    left:397px;
+    top:-405px;
+    transition: 2s;
+
+}
+.n:hover{
+    transform: rotateX(180deg);
+    opacity:0.2;
+}
+.i{
+    width:8%;
+    position:relative;
+    left:600px;
+    top:-312px;
+    transition: 2s;
+    
+}
+.i:hover{
+    opacity:0.2;
+}
+.t{
+    width:66px;
+    position:relative;
+    left:718px;
+    top:-405px;
+    transition: 2s;
+}
+.t:hover{
+    opacity:0.2;
+}
+
+
+
+
+/* new project 1 */
+/* .first line{ */
+    /* display:block; */
+    /* padding: 100px; */
+    /* margin:200px; */
+/* } */
+
+.revelio{
+    position:absolute;
+    top:0px;
+    left:0px;
+    width:1000px;
+    height:500px;
+    display:block;
+    padding:200px;
+    /* background: #000; */
+}
+
+/* the R */
+.R{
+    position:absolute;
+    top:300px;
+    left:50px;
+    margin:50px;
+    padding:0;
+    border:0;
+    display:inline-block;
+    /* background: white; */
+    z-index:1; 
+}
+.r{
+    position:absolute;
+    opacity:0;
+    /* unhover delay */
+    transition: 0.6s ease 2s; 
+    width:150px;
+
+}
+.runit{
+    position: absolute;
+    left:0px;
+    transition: 1s ease; 
+    width:150px;
+}
+.runit:hover{
+    opacity:0;
+        transition: 1.5s ease; 
+
+}
+
+.R:hover .r{
+    opacity:1;
+    transition: all 0.5s ease-out;
+}
+/* the E */
+.E{
+    position: absolute;
+    top:300px;
+    left:250px;
+    margin:50px;
+    padding:0;
+    border:0;
+    display:inline-block;
+    /* background: white; */
+}
+.e{
+    position:absolute;
+    left:0;
+    opacity:0;
+    width:150px;
+
+    /* unhover delay */
+    transition: 0.6s ease 2s; 
+
+}
+.eunit{
+    position: absolute;
+    left: 0px;
+    transition: 1s ease; 
+    width:150px;
+
+
+}
+.eunit:hover{
+    opacity:0;
+        transition: 1.5s ease; 
+
+}
+
+.E:hover .e{
+    opacity:1;
+    transition: all 0.5s ease-out;
+}
+/* the V */
+.V{
+    position: absolute;
+    top:300px;
+    left:450px;
+    margin:50px;
+    padding:0;
+    border:0;
+    display:inline-block;
+    /* background: white; */
+}
+.v{
+    position:absolute;
+    left:0px;
+    opacity:0;
+    /* unhover delay */
+    transition: 0.6s ease 2s; 
+    width:150px;
+
+
+}
+.vunit{
+    position: absolute;
+    left: 0px;
+    transition: 1s ease; 
+    width:150px;
+
+
+}
+.vunit:hover{
+    opacity:0;
+        transition: 1.5s ease; 
+
+}
+
+.V:hover .v{
+    opacity:1;
+    transition: all 0.5s ease-out;
+}
+/* E again */
+.E2{
+    position:absolute;
+    top:300px;
+    left:650px;
+    margin:50px;
+    padding:0;
+    border:0;
+    display:inline-block;
+    /* background: white; */
+}
+.e2{
+    position:absolute;
+    left:0px;
+    opacity:0;
+    width:150px;
+    /* unhover delay */
+    transition: 0.6s ease 2s; 
+
+}
+.e2unit{
+    position: absolute;
+    left: 0px;
+    width:150px;
+    transition: 1s ease; 
+
+}
+.e2unit:hover{
+    opacity:0;
+        transition: 1.5s ease; 
+
+}
+
+.E2:hover .e2{
+    opacity:1;
+    transition: all 0.5s ease-out;
+}
+/* L is here */
+.L{
+    position:absolute;
+    top:300px;
+    left:850px;
+    margin:50px;
+    padding:0;
+    border:0;
+    display:inline-block;
+    /* background: white; */
+}
+.l{
+    position:absolute;
+    left:0px;
+    opacity:0;
+    width:150px;
+    /* unhover delay */
+    transition: 0.6s ease 2s; 
+
+}
+.lunit{
+    position: absolute;
+    left:0px;
+    width:150px;
+    transition: 1s ease; 
+
+}
+.lunit:hover{
+    opacity:0;
+        transition: 1.5s ease; 
+
+}
+
+.L:hover .l{
+    opacity:1;
+    transition: all 0.5s ease-out;
+}
+/* I is here */
+.I{
+    position:absolute;
+    top:300px;
+    left:1050px;
+    margin:50px;
+    padding:0;
+    border:0;
+    display:inline-block;
+    /* background: white; */
+}
+.i{
+    position:absolute;
+    left:0px;
+    width:62px;
+    opacity:0;
+    transition: 0.6s ease 2s; 
+
+}
+.iunit{
+    position: absolute;
+    left:0px;
+    width:62px;
+    transition: 1s ease; 
+
+}
+.iunit:hover{
+    opacity:0;
+        transition: 1.5s ease; 
+
+}
+
+.I:hover .i{
+    opacity:1;
+    transition: all 0.5s ease-out;
+}
+/* O is here */
+.O{
+    position:absolute;
+    top:300px;
+    left:1170px;
+    margin:50px;
+    padding:0;
+    border:0;
+    display:inline-block;
+    /* background: white; */
+}
+.o{
+    position:absolute;
+    left:0px;
+    width:150px;
+    opacity:0;
+    transition: 0.6s ease 2s; 
+
+}
+.ounit{
+    position: absolute;
+    left:0px;
+    width:150px;
+    transition: 1s ease; 
+
+}
+.ounit:hover{
+    opacity:0;
+        transition: 1.5s ease; 
+
+}
+
+.O:hover .o{
+    opacity:1;
+    transition: all 0.5s ease-out;
+}
+
+.secondline{
+    display:block;
+    /* background:white; */
+}
+/* alphabet */
+.alphabet{
+    display:inline-block;
+    justify-content: center;
+    margin-top:650px;
+    padding:50px;
+    width:1200px;
+    height:1200px;
+}
+.a{
+    margin:50px;
+}
+.b{
+    margin:50px;
+}
+.c{
+    margin:50px;
+}
+.d{
+    margin:50px;
+}
+.empty{
+    margin:50px;
+}
+.f{
+    margin:50px;
+}
+.g{
+    margin:50px;
+}
+.h{
+    margin:50px;
+}
+.j{
+    margin:50px;
+}
+.k{
+    margin:50px;
+}
+.m{
+    margin:50px;
+}
+.n{
+    margin:50px;
+}
+
+.p{
+    margin:50px;
+}
+.q{
+    margin:50px;
+}
+.s{
+    margin:50px;
+}
+.t{
+    margin:50px;
+}
+.u{
+    margin:50px;
+}
+.w{
+    margin:50px;
+}
+.x{
+    margin:50px;
+}
+.y{
+    margin:50px;
+}
+.z{
+    margin:50px;
+}
+/* kitty */
+  .nest{
+    position:absolute;
+    bottom:-1920px;
+    right:200px;
+    width:150px;
+    height:150px;
+    /* background: white; */
+    display:inline-flex;
+   }
+  .nest:hover .image{
+    opacity:0;
+    }
+  .image{ 
+    width: 90%;
+    padding-bottom: 10px;
+    position:absolute;
+    left:0px;
+    opacity: 100;
+  }
+
+  .transform{
+    width: 90%;
+    padding-bottom: 10px;
+    position: absolute;
+    left:0px;
+    opacity:0;
+  }
+  .transform:hover{
+    opacity:100;
+  } 
+
+.self1{
+    position:absolute;
+    left:400px;
+    bottom:-1000px;
+    background:rgb(52, 255, 177);
+  color:rgb(0, 0, 0);
+  border: 0.3px solid #000;
+  border-radius: 1px;
+  transition:all 2s ease 0.5s;
+  cursor:pointer;
+}
+.self1:hover{
+  background:rgb(56, 99, 228);
+  transition: all 0.3s;   
+
+}
+.self2{
+    position:absolute;
+    left:700px;
+    bottom:-1000px;
+    background:rgb(255, 181, 52);
+  color:rgb(0, 0, 0);
+  border: 0.3px solid #000;
+  border-radius: 1px;
+  transition:all 2s ease 0.5s;
+  cursor:pointer;
+}
+.self2:hover{
+  background:rgb(56, 99, 228);
+  transition: all 0.3s;   
+
+}
+.self3{
+    position:absolute;
+    left:1000px;
+    bottom:-1000px;
+    background:rgb(191, 255, 0);
+  color:rgb(0, 0, 0);
+  border: 0.3px solid #000;
+  border-radius: 1px;
+  transition:all 2s ease 0.5s;
+  cursor:pointer;
+}
+.self3:hover{
+  background:rgb(56, 99, 228);
+  transition: all 0.3s;   
+
+}
+
+  
